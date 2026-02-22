@@ -1,11 +1,13 @@
-commit 8de37bb7c3d9d78db7808d8d0c76c8632926a9c0 (HEAD -> main)
-Author: roypoon <roypoon1993@gmail.com>
-Date:   Sun Feb 22 14:38:32 2026 +0900
+mkdir git_challenge
+cd git_challenge
+git init
 
-    こんにちは、世界！
+New-Item hello_world.txt
 
-commit 99637c82672f4c3833a5da0d1eb39b4ecd8f21c4
-Author: roypoon <roypoon1993@gmail.com>
-Date:   Sun Feb 22 14:37:32 2026 +0900
+git add hello_world.txt
+git commit -m "Add Hello, world!"
 
-    Hello, world!
+git add hello_world.txt
+git commit -m "Add こんにちは、世界！"
+
+git log
